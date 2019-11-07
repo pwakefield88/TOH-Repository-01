@@ -18,7 +18,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
   InMemoryDataService, { dataEncapsulation: false }) ],
   declarations: [ AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [HeroService, MessageService]
+  providers: [HeroService, MessageService, InMemoryDataService]
 })
 export class AppModule { }
 
