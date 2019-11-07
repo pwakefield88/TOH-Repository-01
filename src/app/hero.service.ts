@@ -15,7 +15,7 @@ export class HeroService {
     private messageService: MessageService){}
 
   getHeroes (): Observable<Hero[]> {
-  return this.http.get<Hero[]>(this.heroesUrl)
+    return this.http.get<Hero[]>(this.heroesUrl)
   }
     getHero(id: number): Observable<Hero> {
   // TODO: send the message _after_ fetching the hero
